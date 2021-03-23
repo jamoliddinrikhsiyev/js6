@@ -8,7 +8,7 @@ let btn1 = document.querySelector('.btn1')
 function printArray(arr){
     arr = num1.value * 1 
     let b = []
-    for(let x = 0; x <= arr; x++)b.push(x)
+    for(let x = 1; x <= arr; x++)b.push(x)
     return span1.textContent = b
 }
 
